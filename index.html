@@ -4,60 +4,93 @@
 <head>
     <title>My Profile</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-    header{
-        color: brown;
-        background-color: bisque;
-    }
-</style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&family=Sofia&display=swap" rel="stylesheet">
+    <style>
+        /* header {
+            color: brown;
+            background-color: bisque;
+            text-align: right;
+        } */
+
+        /* a {
+            text-decoration: none;
+            background-color: azure;
+            font-size: 14px;
+            font-weight: bold;
+            text-align: left;
+            font-family: 'Poppins', sans-serif;
+            background-color: antiquewhite;
+        } */
+        .file a, .part a,.part span{
+            margin-right: 20px;
+            font-weight: bold;
+            text-decoration: none;
+            background-color: azure;
+            font-size: 14px;
+            font-weight: bold;
+            text-align: left;
+            font-family: 'Poppins', sans-serif;
+            background-color: antiquewhite;
+        }
+
+        header,
+        .user i {
+            margin-right: 20px;
+            color: brown;
+            background-color: bisque;
+            text-align: right;
+        }
+
+        .user1 {
+            margin-left: 10px;
+        }
+    </style>
 </head>
 
 <body>
     <header>
-        <i class="fa fa-user-circle-o" aria-hidden="true" >&nbsp; &nbsp;<strong>Suresh Choudhari</strong> </i>
-        &nbsp; &nbsp; &nbsp; &nbsp;
-        <i class="fa fa-mobile" aria-hidden="true">&nbsp; &nbsp;<strong>9403 6273 79</strong></i>
-        &nbsp; &nbsp; &nbsp; &nbsp;
-        <i class="fa fa-envelope" aria-hidden="true">&nbsp; &nbsp;<strong>choudharisuresh@gmail.com</strong></i>
+
+        <span class="user"> <i class="fa fa-user-circle-o" aria-hidden="true"><span class="user1">Suresh
+                    Choudhari</span></i></span>
+        <span class="user"> <i class="fa fa-mobile" aria-hidden="true"><span class="user1">9403 6273
+                    79</span></i></i></span>
+        <span class="user"> <i class="fa fa-envelope" aria-hidden="true"><span
+                    class="user1">choudharisuresh@gmail.com</span></i></i></span>
+
     </header>
     <hr>
-    <nav>
-        <h3>My Profile</h3>
+    <nav class="file">
+        <h2>My Profile</h2>
         <a href="home.html" target="my_frame">HOME</a>
-        &nbsp;&nbsp;&nbsp;
         <a href="techStack.html" target="my_frame">TECH STACK</a>
-        &nbsp;&nbsp;&nbsp;
         <a href="personalDetail.html" target="my_frame">PERSONAL DETAIL</a>
-        &nbsp;&nbsp;&nbsp;
         <a href="projectDetail.html" target="my_frame">PROJECT DETAIL</a>
-        &nbsp;&nbsp;&nbsp;
         <a href="gallery.html" target="my_frame">OTHER</a>
     </nav>
-    <iframe name="my_frame" width="900px" height="370px">
+    <iframe name="my_frame" width="1100px" height="370px">
 
     </iframe>
 
     <footer>
-        <p>
-            <strong> Follow me </strong> &nbsp; &nbsp; &nbsp; &nbsp;
-
-
+        <p class="part">
+             
+            <span>Follow Me</span>
             <a href="https://www.linkedin.com/" target="_blank">
                 <i class="fa fa-linkedin-square" aria-hidden="true"></i> </a>
-            &nbsp; &nbsp; &nbsp;
             <a href="https://www.google.co.in/" target="_blank">
                 <i class="fa fa-google" aria-hidden="true"></i>
-            </a> &nbsp; &nbsp; &nbsp;
+            </a>
             <a href="https://www.instagram.com/accounts/login/?hl=en" target="_blank">
                 <i class="fa fa-instagram" aria-hidden="true"></i>
-            </a> &nbsp; &nbsp; &nbsp;
+            </a>
             <a href="https://www.facebook.com/" target="_blank">
                 <i class="fa fa-facebook-square" aria-hidden="true"></i>
             </a>
-            </header>
-
-
-
+        </p>
+    </footer>
 </body>
 
 </html>
