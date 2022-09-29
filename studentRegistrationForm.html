@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        form {
+            width: fit-content;
+            /* border-radius: 30px; */
+            /* background-color: antiquewhite; */
+            border-radius: 30px;
+            font-family: 'Roboto', sans-serif;
+            color:blue;
+        }
+
+        .user {
+            border-radius: 30px;
+            background-color: antiquewhite;
+            border-radius: 30px;
+        }
+
+        footer,
+        i,
+        .part {
+            margin-right: 30px;
+            font-size: 15px;
+        }
+
+        .user1 {
+            text-align: center;
+        }
+
+        input[type="text"],input[type="number"],input[type="email"],input[type="password"],input[type="date"] {
+            border-radius: 30px;
+            background-color: rgb(235, 235, 191);
+        }
+        #pot{
+            border-radius: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <fieldset class="user">
+        <legend class="user1">
+            <h3>Student Registration Form</h3>
+        </legend>
+        <form>
+            <table class="part1">
+                <tr>
+                    <td>
+                        <lable>First Name</lable>
+                    </td>
+                    <td><input type="text" placeholder="Only First Name" autofocus></td>
+                </tr>
+                <tr>
+                    <td>
+                        <lable>Last Name</lable>
+                    </td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <lable>Mobile Number</lable>
+                    </td>
+                    <td><input type="number" placeholder="mobile number with country code"></td>
+                </tr>
+                <tr>
+                    <td><label>Email Address</label></td>
+                    <td><input type="email" placeholder="abc@gmail.com"></td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <lable>Password</lable>
+                    </td>
+                    <td><input type="password" placeholder="*********"></td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <lable>Graduation</lable>
+                    </td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td> <label>Date of birth</label></td>
+                    <td> <input type="date"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <lable>Pass out Year</lable>
+                    </td>
+                    <td> <input type="date"> </td>
+                </tr>
+                <tr>
+                    <td><label>Gender</label></td>
+                    <td>
+                        <input type="radio" name="gender"><label>Female</label>
+                        <input type="radio" name="gender"><label>Male</label>
+                    </td>
+                </tr>
+                <!-- <tr>
+                    <td><label>Marital Status</label></td>
+                    <td>
+                        <input type="radio" name="Marital Status"><label>Yes</label>
+                        <input type="radio" name="Marital Status"><label>No</label>
+                    </td>
+                </tr> -->
+                <tr>
+                    <td><label>Known Tools & Technology</label></td>
+                    <td><input type="checkbox"><label>Angular</label>
+                        <input type="checkbox"></label>React</label>
+                        <input type="checkbox"><label>Python</label>
+                        <input type="checkbox"></label>Java</label>
+                        <input type="checkbox"><label>Jenkin</label>
+                        <input type="checkbox"></label>GIT</label>
+                        <input type="checkbox"><label>Database</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Profile Photo</label></td>
+                    <td><input type="file"></td>
+                </tr>
+                <!-- <tr>
+                    <td>
+                        <lable for="Profile">Profile</lable>
+                    </td>
+                    <td>
+                        <select name="profile" id="profile">
+                            <option value="UI Developer">UI Developer</option>
+                            <option value="Backend Developer">Backend Developer</option>
+                            <option value="UI Developer">UI Developer</option>
+                            <option value="Full Stack Developer">Full Stack Developer</option>
+                            <option value="DevOps Engineer">DevOps Engineer</option>
+                            <option value="Tester">Tester</option>
+                        </select>
+                    </td>
+                </tr> -->
+                <tr>
+                    <td> <label>Country</label></td>
+                    <td> <input type="text" value="India" readonly></td>
+                </tr>
+                <tr>
+                    <td>
+                        <lable>Permanent Address</lable>
+                    </td>
+                    <td><textarea rows="4" cols="30"></textarea></td>
+                </tr>
+                <tr id="pot">
+                    <td><input type="submit"></td>
+                    <td><input type="reset"></td>
+                </tr>
+            </table>
+    </fieldset>
+    </form>
+    <footer>
+        <p>
+            <span class="part">SSO sign in options</span>
+            <a href="https://www.google.co.in/" target="_blank">
+                <i class="fa fa-google" aria-hidden="true"></i> </a>
+            <a href="https://www.instagram.com/accounts/login/?hl=en" target="_blank">
+                <i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://www.facebook.com/" target="_blank">
+                <i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+        </p>
+    </footer>
+</body>
+
+</html>
